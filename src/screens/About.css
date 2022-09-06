@@ -1,0 +1,37 @@
+.orqa{
+    background-image: url("");
+}
+.bi{
+    width: 100%;
+    filter: blur(20px);
+}
+.releative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.204);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+.buton{
+    width: 100%;
+}
+.tugma{
+    background: linear-gradient(90deg, rgba(90,58,180,1) 0%, rgba(205,29,253,1) 50%, rgba(252,69,186,1) 100%);
+    border: 0;
+    margin-left: 20px;
+    border-radius: 7px;
+    padding: 10px 30px;
+    color: white;
+}
+.icon{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}

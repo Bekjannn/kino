@@ -1,0 +1,39 @@
+.bigImgCard{
+    background-image: url("https://pbs.twimg.com/media/EsGOAXUXIAM-aCb.jpg:large");
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-size: 150%;
+    background-position: left top ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    color: white;
+}
+.left{
+    background-image: linear-gradient(to right top, #88b0ec, #aea5d7, #bf9ebd, #be9ca8, #b29d9d);;
+}
+.swiperCard{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.miniSwiper{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+}
+.miniSwiper img{
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.ss{
+    padding-top: 50px !important;
+    padding-top: 50px;
+}
