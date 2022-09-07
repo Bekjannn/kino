@@ -9,7 +9,9 @@ const Menu = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-3">
-                        <img className='rasm' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="" />
+                        <div className="netflix">
+                            <img className='rasm'src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="" />
+                        </div>
                     </div>
                     <div className="col-7">
                         <nav class="navbar navbar-expand-lg">
@@ -18,7 +20,7 @@ const Menu = () => {
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                    <div class="navbar-nav fs-4">
+                                    <div class="navbar-nav fs-5">
                                         <a class="nav-link" href="#">New</a>
                                         <a class="nav-link" href="#">Movies</a>
                                         <a class="nav-link" href="#">Series</a>
@@ -30,8 +32,8 @@ const Menu = () => {
                     </div>
                     <div className="col-2">
                         <div className="ikon">
-                            <h3> <ImSearch /> </h3>
-                            <h3> <HiOutlineBell /> </h3>
+                            <h5> <ImSearch /> </h5>
+                            <h5> <HiOutlineBell /> </h5>
                         </div>
                     </div>
                 </div>

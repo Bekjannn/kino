@@ -13,7 +13,11 @@
     color: white;
 }
 .left{
-    background-image: linear-gradient(to right top, #88b0ec, #aea5d7, #bf9ebd, #be9ca8, #b29d9d);;
+    min-height: 100vh;
+    /* background-image: linear-gradient(to right top, #88b0ec, #aea5d7, #bf9ebd, #be9ca8, #b29d9d); */
+    /* background-image: linear-gradient(to right top, #fcfcfc, #f6f3f9, #f2eaf4, #f0e0ee, #f0d6e5); */
+    /* background-image: linear-gradient(to right top, #d9d8df, #d6d1de, #d6c9da, #d9c0d4, #dcb7cc); */
+    background-image: linear-gradient(to left bottom, #d9d8df, #d6d1de, #d6c9da, #d9c0d4, #dcb7cc);
 }
 .swiperCard{
     padding-top: 20px;
@@ -23,6 +27,7 @@
     padding: 10px;
     border-radius: 10px;
     width: 100%;
+    height: 260px;
     background-color: white;
 }
 .miniSwiper img{
@@ -31,9 +36,33 @@
     height: 150px;
     object-fit: cover;
 }
-
+.main{
+    background-color: aliceblue;
+    min-height: 100vh;
+}
 
 .ss{
     padding-top: 50px !important;
     padding-top: 50px;
+}
+.one{
+    width: 100%;
+    display: flex;
+    border: 1px solid;
+}
+.rasm{
+    width: 100%;
+}
+.rasm img{
+    width: 100%;
+    border-radius: 16px;
+}
+.minSwifer{
+    border: 1px solid;
+    width: 450px;
+    padding: 10px;
+}
+#star{
+    color: rgb(16, 109, 2);
+    font-size: bold;
 }
