@@ -55,29 +55,24 @@ const Home = () => {
                     <button className='btn btn-danger'>Watch</button>
                   </div>
                   <div className="ikkinchi">
-                    <h1>Swiper</h1>
-                    <div className="swiperCard">
-                      <div class="swiffy-slider slider-item-show4">
-                        <ul class="slider-container">
-                          {
-                            (data.length > 0) ? (
-                              data.map((value, index) => {
-                                return <li onClick={() => GoToPage(value)} key={index}>
-                                  <div id={`slide${index + 1}`}>
-                                    <div className="miniSwiper">
-                                      <img src={`https://image.tmdb.org/t/p/original${value.backdrop_path}`} alt="" />
-                                      <p><span id="star"><AiTwotoneStar /> {value.id}</span> 4 seasons</p>
-                                      <h5>{value.title}</h5>
-                                    </div>
+                    <div class="swiffy-slider slider-item-show2 slider-item-ratio">
+                      <ul class="slider-container">
+                        {
+                          (data.length > 0) ? (
+                            data.map((value, index) => {
+                              return <li onClick={() => GoToPage(value)} key={index}>
+                                <div id={`slide${index + 1}`}>
+                                  <div className="two">
+                                    <img src={`https://image.tmdb.org/t/p/original${value.backdrop_path}`} alt="" />
                                   </div>
-                                </li>
-                              })
-                            ) : (<h1>Error</h1>)
-                          }
-                        </ul>
-                        <button type="button" class="slider-nav"></button>
-                        <button type="button" class="slider-nav slider-nav-next"></button>
-                      </div>
+                                </div>
+                              </li>
+                            })
+                          ) : (<h1>Error</h1>)
+                        }
+                      </ul>
+                      <button type="button" class="slider-nav"></button>
+                      <button type="button" class="slider-nav slider-nav-next"></button>
                     </div>
                   </div>
                 </div>
@@ -91,7 +86,7 @@ const Home = () => {
                               <div id={`slide${index + 1}`}>
                                 <div className="miniSwiper">
                                   <img src={`https://image.tmdb.org/t/p/original${value.backdrop_path}`} alt="" />
-                                  <p><span id="star"><AiTwotoneStar /> {value.id}</span> 4 seasons</p>
+                                  <p><span id="star"><AiTwotoneStar /> </span>{value.id} 4 seasons</p>
                                   <h5>{value.title}</h5>
                                 </div>
                               </div>
@@ -120,6 +115,27 @@ const Home = () => {
                   </div>
                   <div className="col-3">
                     icon
+                  </div>
+                </div>
+                <div className="ikkinchi">
+                  <div class="swiffy-slider slider-item-show2 slider-item-ratio">
+                    <ul class="slider-container">
+                      {
+                        (data.length > 0) ? (
+                          data.map((value, index) => {
+                            return <li onClick={() => GoToPage(value)} key={index}>
+                              <div id={`slide${index + 1}`}>
+                                <div className="two">
+                                  <img src={`https://image.tmdb.org/t/p/original${value.backdrop_path}`} alt="" />
+                                </div>
+                              </div>
+                            </li>
+                          })
+                        ) : (<h1>Error</h1>)
+                      }
+                    </ul>
+                    <button type="button" class="slider-nav"></button>
+                    <button type="button" class="slider-nav slider-nav-next"></button>
                   </div>
                 </div>
                 <div className="slayd">
